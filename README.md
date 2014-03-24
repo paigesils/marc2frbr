@@ -1,6 +1,6 @@
 marc2frbr FRBRizer tool
 =========
-The marc2frbr FRBRizer is an open-source tool. The tool supports the conversion of records in the MARC format to a normalized set of records based on the FRBR model. The tool is implemented in XSLT and requires Java Runtime Environment 1.6+.
+The marc2frbr FRBRizer is an open-source tool. The tool supports the conversion of records in the MARC format to a normalized set of records based on the FRBR model. The tool is implemented in XSLT and requires Java 1.6+.
 
 FRBRizer utilizes a set of rules encoded in an XML file. An example of such rules file is given in `examples/marc21/marc21.rules.xml`. 
 
