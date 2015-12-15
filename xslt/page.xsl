@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:f="http://idi.ntnu.no/frbrizer/"
-	xmlns:marc21="http://www.loc.gov/MARC21/slim">
+				xmlns:f="http://idi.ntnu.no/frbrizer/"
+				xmlns:marc21="http://www.loc.gov/MARC21/slim">
 	<xsl:param name="xmlFileName" select="xmlFileName"/>
 	<xsl:template match="/">
 		<html>
@@ -16,7 +16,7 @@
 						select="marc21:collection/marc21:record[@f:type='http://iflastandards.info/ns/fr/frbr/frbrer/C1001']"
 					/>
 				</div>
-				<div class="copyright">&#169; 2014 NTNU, IDI.</div>
+				<div class="copyright">&#169; 2016 NTNU, IDI.</div>
 			</body>
 		</html>
 	</xsl:template>
