@@ -16,7 +16,7 @@ java net.sf.saxon.Transform -s:marc21.rules.xml -o:$OUTPUT/marc21.conversion.xsl
 echo "Generated $OUTPUT/marc21.conversion.xslt."
 
 echo "Running conversion"
-java net.sf.saxon.Transform -s:marc21.example.records.xml -o:$OUTPUT/frbr.example.records.xml -xsl:$OUTPUT/marc21.conversion.xslt
+java net.sf.saxon.Transform -s:core-basic-marc21.xml -o:$OUTPUT/frbr.example.records.xml -xsl:$OUTPUT/marc21.conversion.xslt
 
 echo "Records xml is written to '$OUTPUT/frbr.example.records.xml'"
 

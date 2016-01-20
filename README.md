@@ -19,9 +19,9 @@ Publications
 
 Contact
 ----
-<a href="http://www.idi.ntnu.no/people/trondaal">Trond Aalberg</a> 
+<a href="http://www.ntnu.edu/employees/trondaal">Trond Aalberg</a> 
 
-<a href="http://folk.ntnu.no/takhirov">Naimdjon Takhirov</a>
+<a href="http://takhirov.name">Naimdjon Takhirov</a>
 
 
 
